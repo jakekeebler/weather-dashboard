@@ -28,7 +28,7 @@ var saveSearch = function(){
 };
 
 var getCityWeather = function(city){
-    var apiKey = "844421298d794574c100e3409cee0499"
+    var apiKey = "6dfd166e18b14ab4f047e767aad9b537"
     var apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
 
     fetch(apiURL)
